@@ -1,0 +1,338 @@
+@font-face {
+    font-family: "my-font";
+    src: url(/Montserrat-VariableFont_wght.ttf) format("truetype") ;
+}
+h1{
+    font-size: 42px;
+    color: rgb(255, 0, 157);
+    background-color: rgb(255, 192, 237);
+    text-align: center;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    align-items: center;
+}
+.sidebar{
+   flex: 0 0 220px;
+   background: #ffcff8;
+   border-radius: 12px;
+   padding: 16px;
+   width: 220px;
+   box-sizing: border-box;
+}
+
+    .sidebar label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.search-bar {
+    width: 300px;
+    padding: 8px;
+}
+
+.nav-link a {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+
+ a{
+    text-decoration: none;
+    color:rgba(66, 69, 74, 0.566);
+    justify-content: end;
+    background-color: white;
+ }
+ a:hover{
+    color: rgb(255, 0, 225);
+    text-decoration: underline;
+ }
+ .hero-banner{
+    background-color: rgb(255, 204, 229);
+   position: relative;
+    text-align: center;
+ }
+ h2{
+    color : rgb(255, 52, 147);
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgb(255, 224, 249);
+ }
+ p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+    color:white;
+    text-align: center;
+    font-weight: bold;
+
+ }
+ button{
+    background-color: rgb(255, 102, 222);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+ }
+ button:hover{
+    background-color: rgb(255, 208, 249);
+    color: rgb(255, 101, 173);
+    cursor: pointer;
+ }
+ .flashsale{
+    background-color: rgb(184, 13, 41);
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 230, 67);
+    font-weight: bold;
+ }
+ h3{
+    color : rgb(173, 41, 182);
+    margin-bottom: 20px;
+    align-items: center;
+    font-style: oblique;
+ }
+ #label  {
+    font-weight: bold;
+ }
+ .featured-categories {
+    margin-bottom: 20px;  
+ }
+.lightning-deals {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: bold;  
+    background-color: rgb(255, 242, 204);
+    padding: 10px 15px;
+    border-radius: 5px;
+   text-align: center;
+}
+.container{
+   
+   background-color:bisque;
+   border: 1px solid black;
+   margin: 0 ;  
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   gap: 20px;
+   justify-items: center;  
+   align-items: center;
+   justify-content: center;  
+}
+.product-item{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   padding: 10px;
+}
+ .product-info{
+   color : rgb(154, 20, 20);
+   font-style: italic;
+   text-decoration: underline;
+   text-align: center;
+ }
+
+img{
+   width: 100px;
+   height: auto;
+   display: block;
+   margin: 0 auto;
+}
+
+.layout{
+   display: flex;
+   gap: 24px;
+   max-width: 1400px;
+   margin: 20px auto;
+   align-items: flex-start;
+}
+
+.sidebar{
+   flex: 0 0 240px;
+   width: 240px;
+   padding: 16px;
+   
+   position: sticky;
+   top: 90px;
+}
+
+.main-content{
+   flex: 1 1 auto;
+   min-width: 0;
+}
+
+.categories-grid{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 20px;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.category-card{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 15px;
+   border-radius: 8px;
+   background-color: #fff5fd;
+}
+
+.category-card img{
+   width: 150px;
+   height: 150px;
+   
+   border-radius: 8px;
+   margin-bottom: 10px;
+}
+.container2{
+   display: flex;
+   gap: 20px;
+   align-items: flex-start;
+   justify-content: space-between;
+   padding: 12px;
+   background-color: #fff;
+   border: 1px solid rgb(255, 177, 238);
+   flex-wrap: wrap;  
+}
+.container2 .product-item{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   padding: 5p
+   
+
+}
+.product-info2{
+    color : rgb(20, 20, 154);
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+.button{
+   background-color: rgb(255, 102, 222);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.button:hover{
+    background-color: rgb(255, 208, 249);
+    color: rgb(255, 76, 160);
+    cursor: pointer;
+}
+.testimonials {
+    margin-bottom: 2em;
+}
+
+.testimonialgrid {
+    display: flex;
+    gap: 200px;
+    flex-wrap: wrap;
+}
+.tst-card {
+    background: rgb(255, 208, 241);
+    border-radius: 12px;
+    padding: 2px;
+    text-align: center;
+    max-width: 350px; 
+    margin-bottom: 100px;
+}
+.tst-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+.tst-card p {
+    font-style: italic;
+    font-size: 18px;
+    color : rgb(142, 15, 66);
+}
+.newsletter {
+    text-align: center;
+    background: rgb(255, 208, 241);
+    padding: 2em 100px;
+    border-radius: 12px;
+    margin-top: 200px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsletter h2 {
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: #690e2c;
+    font-size: 1.5em;
+}
+.newsletter input[type="email"] {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 1em;
+    width: 250px;
+    outline: none;
+}
+.newsletter button {
+    padding: 10px 20px;
+    background: #e91e63;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1em;
+}
+.newsletter button:hover {
+    background: #c2185b;
+}
+.footer {
+    background: #f58fe68e;
+    color: #000000;
+    padding: 100px;
+    margin-top: 2em;
+}
+
+.footer-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    margin-bottom: 1em;
+}
+
+.footer ul {
+   
+    padding: 0;
+}
+
+.footer a {
+    color: #000000;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 40px;
+    
+}
+
+.footer a:hover {
+    color: #e91e63;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 90px;
+    border-top: 1px solid #444;
+    margin-top: 50px;
+    padding-top: 070px;
+}
